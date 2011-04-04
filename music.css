@@ -1,0 +1,231 @@
+#bar {
+	height:67px;
+	padding: 0;
+	background: #ccf;
+	float:left;
+	width:100%;
+}
+#logo {
+	position:absolute;
+	padding:0;
+	margin:0;
+}
+img {
+	margin:0;
+	padding:0;
+}
+#title {
+	position:absolute;
+	color: #555;
+	margin-left:275px;
+	font-size:large;
+}
+#signIn {
+	color: #fff;
+	font-size:14px;
+	position:absolute;
+	margin-left: 885px;
+	margin-top:22px;
+}
+#search {
+	margin-left:275px;
+	position:absolute;
+	margin-top: 22px;
+}
+#searchBox {
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	color:#aaa;
+	width: 260px;
+}
+#header {
+	height:67px;
+	padding: 0;
+}
+body {
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size:11px;
+}
+img {
+	border-style:none;
+}
+#container {
+	padding:0 10px 0 10px;
+	background:#fff;
+}
+#container .column {
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	padding-bottom: 10010px;
+	margin-bottom: -10000px;
+	text-align: justify;
+}
+
+#left {
+	width:260px;
+}
+
+#center {
+	width:420px;
+	padding:10px;
+	margin: 10px 10px 0 10px;
+}
+
+#right {
+	width:260px;
+	padding:10px;
+	padding-top:0 !important;
+	margin-top:0px !important;
+	/*background-image: url("./images/bird.png");*/
+}
+
+#footer {
+	/*margin-top:10px;*/
+	margin-bottom:10px;
+	clear: both;
+}
+
+#columnContainer {
+	overflow: hidden;
+}
+
+#container {
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	border-right:1px solid grey;
+	border-left:1px solid grey;
+	border-bottom:1px solid grey;
+}
+
+/*** Just for Looks ***/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#footer {
+	font-size: large;
+	text-align: center;
+	/*padding: 5px 0;*/
+	background: #66f;
+}
+
+#left {
+	background: #aaF;
+}
+
+#center {
+	/*background: #ccc;*/
+}
+
+#right {
+	background-color: #ccf;
+}
+
+/* tabs */
+
+.tab-box { 
+	background-color:#fff;
+	height:30px;
+	font-size:14px;
+}
+.tab {
+background-color:#ccf;
+height:25px;
+width:150px;
+position:relative;
+float:left;
+text-align:center;
+padding-top:5px;
+margin-top:5px;
+-webkit-border-top-left-radius: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-topleft: 20px;
+-moz-border-radius-topright: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+z-index:1;
+}
+.tab.active {
+margin-top:0;
+height:30px;
+background-color:#aaf;
+color:#fff;
+z-index:2;
+font-weight:bold;
+}
+.tab-box a {
+	color:#444;
+	text-decoration:none;
+	outline:0;
+}
+
+.tab.active a{ 
+	color: #fff;
+}
+.tabcontent {
+clear:both;
+padding:5px;
+}
+#cont-1 {
+	
+}
+#cont-2 {
+	margin-left:-40px;
+}
+.hide { display: none;}
+
+/* end tabs */
+
+/* twitter bubbles */
+.tweet-outer {
+	background-color:#ccf;
+	margin-top:10px;
+	padding: 15px 15px 5px 15px;
+	text-align:left;
+	border: 1px solid #aaf;
+}	
+
+.tweet-outer a {
+	text-decoration:none;
+}
+.tweetBubble-outer {
+	background: url('./images/tail.png') bottom left no-repeat;
+	padding-bottom: 12px;
+}
+.tweetBubble {
+	background-color:#fff;
+	padding:12px;
+	overflow:hidden;
+-webkit-border-bottom-left-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+}
+.tweetPic {
+	float:left;
+	height:48px;
+	border:10px;
+	margin-right:5px;
+}
+.tweetInfo {
+	margin:5px 0px 5px 0px;
+	height:48px;
+}
+/* end twitter */
+
+/* ie workaround*/
+* html body {
+  overflow: hidden;
+}
+* html #footer-wrapper {
+  float: left;
+  position: relative;
+  width: 100%;
+  padding-bottom: 10010px;
+  margin-bottom: -10000px;
+  background: #fff;         /* Same as body 
+                               background */
+}
+/* end ie workaround */
